@@ -42,7 +42,7 @@ div {
     top : 20px ;
 }
 .fa   {
-    color :white ;
+    color :currentColor;
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;

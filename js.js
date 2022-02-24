@@ -35,7 +35,7 @@ for (let i = 0; i < Cpersons.length; i++) {
     let ps = document.getElementsByClassName('persons')[0];
     ps.style.transform = "translateX("+ (i*-(25/persons.length)) +"%)";
     // alert(persons.length);
-  }}
+  }};
 
 
 const brands = document.querySelectorAll('.brands img');
@@ -49,3 +49,6 @@ function brand(i) {
     currentBrand = 0;
     br.style.transform = "translateX("+ (currentBrand*-(25/brands.length)) +"%)";
 }
+
+document.querySelectorAll(".back-to-top i")[0].onclick = () => {
+  window.scrollTo({top:0, behavior: 'smooth'})};

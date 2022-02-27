@@ -1,0 +1,36 @@
+
+#header {
+  position:unset}
+.header {
+  background-color:#000}
+
+.top img {
+  width:180px;
+  margin:1.5rem 0}
+#content h1 {
+  text-transform:uppercase}
+.top h1 {
+  font-weight:400}
+#content .row img {
+  width:min(80%, 600px);
+  margin:1.5rem 0}
+#content :is(li) {
+  color:#424c58;
+  font-size:18px}
+#content b {
+  color:#424c58;
+  display:block}
+.row b {
+  font-size:1.5rem;
+  line-height:3rem}
+ul.details {
+  margin-top:1.5rem;
+  border-top:2px solid var(--primary);
+  padding:1rem 0 1rem 1.5rem;
+  list-style-type:unset}
+.text-golden {
+  color:var(--golden)}
+::marker {
+  color:#7c848b}
+ul.details li {
+  padding:10px 0}
